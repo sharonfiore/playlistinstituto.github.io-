@@ -10,29 +10,34 @@
         rel="stylesheet">
     <style>
         body {
-            background-color: #f3e5f5; /* Fondo morado claro */
+            background-color: #f5f5f5; /* Fondo blanco humo */
         }
         .form-container {
             max-width: 400px;
             margin: 50px auto;
             padding: 20px;
             border-radius: 10px;
-            background-color: #673ab7; /* Fondo morado oscuro */
-            color: white;
+            background-color: #ffffff; /* Fondo blanco */
+            border: 2px solid #673ab7; /* Borde morado */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Sombra flotante */
+            color: #333; /* Texto gris oscuro */
+        }
+        .form-container h2 {
+            color: #673ab7; /* Título morado */
         }
         .form-container .btn-primary {
-            background-color: #512da8;
-            border-color: #512da8;
+            background-color: #673ab7;
+            border-color: #673ab7;
         }
         .form-container .btn-primary:hover {
-            background-color: #311b92;
-            border-color: #311b92;
+            background-color: #512da8;
+            border-color: #512da8;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="form-container shadow">
+        <div class="form-container">
             <h2 class="text-center mb-4">Ingresa tu Canción</h2>
             <form id="songForm">
                 <div class="mb-3">
